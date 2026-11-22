@@ -2,6 +2,11 @@
 
 Landing de FIL-113 · PUCMM sobre el 25 de noviembre, el legado de las hermanas Mirabal y la prevención de la violencia contra las mujeres.
 
+## Descargas
+
+- [Mariposas25N.html](descargas/Mariposas25N.html) es la vista previa autónoma. En GitHub, usa **Download raw file** y abre el HTML descargado en tu navegador.
+- [Mariposas25N.zip](descargas/Mariposas25N.zip) contiene el código fuente, la licencia y las instrucciones. Descárgalo y descomprímelo para editar el proyecto.
+
 ## Abrir la página
 
 Con Node.js 22.12 o posterior, ejecuta:
