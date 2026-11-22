@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 import { ChevronDown, Menu, X } from 'lucide-react'
-import { navigation, site, sources } from '../data/content'
+import { navigation, site } from '../data/content'
 
 function Brand() {
   return <a className="brand" href="#inicio"><img src="/mariposa.svg" width="34" height="34" alt="" />{site.name}</a>
@@ -38,8 +38,8 @@ export function Disclosure({ label, children }) {
 }
 
 export function Footer() {
-  return <footer><div className="wrap grid gap-8 md:grid-cols-2">
-    <div><Brand /><p>{site.occasion}</p><p>{site.course}</p><p>Equipo: {site.team.join(', ') || 'nombres por añadir'}</p></div>
-    <div><h2>Fuentes históricas</h2><ul>{sources.map(([label, url]) => <li key={url}><a href={url}>{label}</a></li>)}</ul></div>
+  return <footer><div className="wrap footer-row">
+    <div><Brand /><p>{site.course}</p>{site.team.length > 0 && <p>{site.team.join(', ')}</p>}</div>
+    <a href="#acciones">Consulta recursos de apoyo</a>
   </div></footer>
 }

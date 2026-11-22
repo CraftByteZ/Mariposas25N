@@ -36,4 +36,4 @@ Cuando el equipo apruebe la publicación, en Vercel elige **Add New → Project*
 - [Ministerio de la Mujer, Línea de Emergencia *212](https://www.mujer.gob.do/index.php/servicios/linea-mujer-212).
 - Los retratos son recortes de una [imagen histórica de autoría desconocida catalogada en Wikimedia Commons como dominio público en República Dominicana y EE. UU.](https://commons.wikimedia.org/wiki/File:Mirabal_sisters.jpg).
 - `public/marcha.webp` es una imagen generada para ilustrar una marcha ficticia.
-- La identidad visual sigue la descripción del brief. Queda pendiente cotejarla con Figma y añadir los nombres del equipo.
+- El diseño se ajustó a las capturas de Figma proporcionadas. Los nombres del equipo se pueden añadir en el archivo de contenido.
