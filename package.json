@@ -1,0 +1,31 @@
+{
+  "name": "mariposas25n",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraftByteZ/Mariposas25N.git"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/CraftByteZ/Mariposas25N/issues"
+  },
+  "homepage": "https://github.com/CraftByteZ/Mariposas25N#readme",
+  "private": true,
+  "dependencies": {
+    "lucide-react": "^1.77.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@vitejs/plugin-react": "^6.3.0",
+    "tailwindcss": "^4.3.5",
+    "vite": "^8.3.8"
+  }
+}
